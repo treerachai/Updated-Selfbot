@@ -16,7 +16,7 @@
   },
   "keywordNotificator": {
     "inConsole": true,
-    "inNotificationChannel": true,
+    "inNotificationChannel": false,
     "logBlockedUsers": false,
     "caseInsensitive": true,
     "ignoredServers": ["SERVER ID"]
