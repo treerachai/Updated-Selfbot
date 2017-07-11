@@ -11,7 +11,7 @@
   If no color is chosen for the embed, the embed will have the default color set in the config file.
 */
 module.exports = (self) => {
-  self.registerCommand('me', function (msg, args) {
+  self.registerCommand('embed', function (msg, args) {
     // Get user, if any.
     let user = {name: null, avatar: null, id: false}
     if (/user/.test(args[0])) {
