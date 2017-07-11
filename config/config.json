@@ -14,19 +14,4 @@
     "logBlockedUsers": false,
     "ignoredServers": ["SERVER ID"]
   },
-  "keywordNotificator": {
-    "inConsole": true,
-    "inNotificationChannel": true,
-    "logBlockedUsers": false,
-    "caseInsensitive": true,
-    "ignoredServers": ["SERVER ID"]
-  },
-  "eventNotificator": {
-    "inConsole": true,
-    "inNotificationChannel": false
-  },
-  "notificationChannelID": "Notification channel ID if you set 'inNotificationChannel' to true at least once",
-  "defaultEmbedColor": "#117ea6",
-  "deleteCommandMessages": true,
-  "deleteCommandMessagesTime": 15000
 }
